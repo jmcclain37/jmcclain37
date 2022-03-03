@@ -10,9 +10,9 @@ docker run \
 -p 32412:32412/udp \
 -p 32413:32413/udp \
 -p 32414:32414/udp \
--e TZ="Asia/Jakarta" \
--e PLEX_CLAIM="claim-h96po_LrLk4-dzzPBsJ_" \
--e ADVERTISE_IP="192.168.1.247:32400/" \
+-e TZ="America/New_York" \
+-e PLEX_CLAIM="#CLAIM_CODE HERE" \
+-e ADVERTISE_IP="192.168.1.247:32400/" \    #NEEDED TO ADVERTISE IP TO EXTERNAL SOURCES
 -v /home/bunti/plex/database:/config \
 -v /home/bunti/plex/transcode/temp:/transcode \
 -v /home/bunti/plex/media:/data \
